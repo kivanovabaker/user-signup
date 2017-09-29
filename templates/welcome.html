@@ -1,13 +1,11 @@
 {% extends "base.html" %}
 
 {% block style %}
-<style>
-    
-</style>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='normalize.css') }}">
 {% endblock %}
 
 {% block content %}
 
-    <h1>Panda kisses for {{username}}!!!</h1>
+    <h1>Incoming PANDA KISSES for {{username}}!!!</h1>
 
 {% endblock %}

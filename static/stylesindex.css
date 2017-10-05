@@ -1,3 +1,31 @@
+body {
+    display: flex;
+    background-color: #FFFFE7;
+    align-items: center;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+img {
+    order: 0;
+}
+div {
+    order: 1;
+}
+table {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.button {
+    font-family: 'Indie Flower', cursive;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    margin: 4px 2px;
+}
 .error {
     color: red;
 }

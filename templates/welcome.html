@@ -2,10 +2,13 @@
 
 {% block style %}
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='normalize.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styleswelcome.css') }}">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
 {% endblock %}
 
 {% block content %}
 
-    <h1>Incoming PANDA KISSES for {{username}}!!!</h1>
+    <img src="{{ url_for('static', filename='images/rocking_panda.jpg') }}" alt="Panda on a rocking horse.">
+    <h1>Your little guy is on his way, {{username}}!!!</h1>
 
 {% endblock %}

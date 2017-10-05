@@ -1,0 +1,18 @@
+img {
+    order: 1;
+}
+
+h1 {
+    order: 0;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    padding-left: 10%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    background-color: #51B3A6;
+}
